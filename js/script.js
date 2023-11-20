@@ -34,7 +34,5 @@ let greet = "Ciao, Mondo!";
 
 // Esercizio 4/c
 
-let comestai = "Come stai?"
-
-greet = `${greet}${comestai}`
+greet = `${greet}${"Come stai?"}`
 console.log(greet);
