@@ -1,23 +1,23 @@
 // Esercizio 1
-// let number = 100;
-// console.log(number); 
+let number = 100;
+console.log(number); 
 
 // Esercizio 2
-// const pi = 3.14;
-// console.log(pi);
+const pi = 3.14;
+console.log(pi);
 
 // Esercizio 2/B
-// let radius = 8;
-// console.log(radius)
+let radius = 8;
+console.log(radius)
 
 // Esercizio 2/C
-// let circle = radius * 2 * pi;
-// console.log(circle)
+let circle = radius * 2 * pi;
+console.log(circle)
 
 // Esercizio 3
-// let name = `Carlo`;
-// name = `Marco`;
-// console.log(name);
+let name = `Carlo`;
+name = `Marco`;
+console.log(name);
 
 // Esercizio 4
 
@@ -34,5 +34,19 @@ let greet = "Ciao, Mondo!";
 
 // Esercizio 4/c
 
-greet = `${greet}${"Come stai?"}`
+greet = `${greet} ${"Come stai?"}`
 console.log(greet);
+
+// Esercizio 5
+let num= "20"; 
+let num2= "10";
+let comparison;
+
+if(num < num2){
+    comparison = num;
+}
+else{
+    comparison = num2;
+}
+
+console.log(comparison);
