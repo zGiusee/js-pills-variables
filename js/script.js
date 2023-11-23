@@ -83,6 +83,12 @@
 
 // Esercizio 1/a
 
-for(let i=1; i<=42; i++){
+// for(let i=1; i<=42; i++){
+//     console.log(i)
+// }
+
+// Esercizio 1/b
+
+for(let i=42; i>=0; i--){
     console.log(i)
 }
