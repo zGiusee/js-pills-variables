@@ -68,15 +68,21 @@
 
 // Esercizio 7
 
-let num = 10;
-let comparison;
+// let num = 10;
+// let comparison;
 
-if ("10" == num){
-    comparison = true;
+// if ("10" == num){
+//     comparison = true;
+// }
+
+// else{
+//     comparison = false;
+// }
+
+// console.log(comparison);
+
+// Esercizio 1/a
+
+for(i=1; i<=42; i++){
+    console.log(i)
 }
-
-else{
-    comparison = false;
-}
-
-console.log(comparison);
