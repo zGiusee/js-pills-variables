@@ -101,6 +101,96 @@
 
 // Esercizio 1/c array
 
-const fruits = ["mela", "banana", "pesca", "pera", "albicocca", "mango", "kiwi", "papaya"]
+// const fruits = ["mela", "banana", "pesca", "pera", "albicocca", "mango", "kiwi", "papaya"]
 
-console.log(fruits)
+// console.log(fruits)
+
+// Esercizio 1/d array
+
+// const fruits = ["mela", "banana", "pesca", "pera", "albicocca", "mango", "kiwi", "papaya"]
+
+// console.log(fruits.length)
+
+// const numOfElement = prompt("Inserisci un numero")
+
+// let numbers = []
+
+// for(let i = 1; i <= numOfElement; i++){
+//     numbers.push(i);
+//     console.log(numbers.)   
+    
+// }
+
+// Snack ESERCIZIO 1
+
+// let number1 = parseInt(prompt("Inserisci il primo numero"));
+// let number2 = parseInt(prompt("Inserisci il primo numero"));
+
+// console.log(number1,number2)
+
+// if(number1 < number2){
+//     console.log("il numero maggiore è",number2)
+// }
+// else if(number2 < number1){
+//     console.log("il numero maggiore è",number1)
+// }
+// else{
+//     console.log("i numeri sono uguali")
+// }
+
+// Snack 2
+
+
+// let number = parseInt(prompt("Inserisci un numero"));
+// let somma = 0;
+
+// for(let i=0; i<=10; i++){
+//     number = parseInt(prompt("Inserisci un numero"));
+
+//     somma += number;
+// }
+
+// console.log(somma);
+// console.log(number);
+
+
+// snack 3
+
+// let array = ["Ciccio", "Francesco", "Giuseppe"];
+// let name = prompt("inserisci il tuo nome");
+// let check = false;
+
+// for(let i=0; i<array.length; i++){
+    
+//     if(name == array[i]){
+//         check = true;
+//     }
+// }
+
+// if(check){
+//     console.log("sei tra gli invitati")
+// }
+// else{
+//     console.log("Non sei tra gli invitati")
+// }
+
+// snack 4
+
+let array = [ ];
+
+for(let i=0; i<=5; i++){
+
+     number = parseInt(prompt("Inserisci un numero"));
+     if(number % 2 !=0){
+        array.push(`${number}`);
+     }
+
+}
+
+console.log(array);
+
+
+
+
+
+
