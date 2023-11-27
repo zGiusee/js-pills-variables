@@ -176,19 +176,43 @@
 
 // snack 4
 
-let array = [ ];
+// let array = [ ];
 
-for(let i=0; i<=5; i++){
+// for(let i=0; i<=5; i++){
 
-     number = parseInt(prompt("Inserisci un numero"));
-     if(number % 2 !=0){
-        array.push(`${number}`);
-     }
+//      number = parseInt(prompt("Inserisci un numero"));
+//      if(number % 2 !=0){
+//         array.push(number);
+//      }
 
+// }
+
+// console.log(array);
+
+// FOR IN WHILE
+
+let num = prompt("inserisci il tuo numero");
+
+let a = 0;
+let b = 1;
+
+let c;
+
+console.log(a, b);
+
+let i = 0;
+
+while(i < num){
+
+   c = a + b;
+   a = b;
+   b = c;
+
+   console.log(c);
+   
+   i++;
+   
 }
-
-console.log(array);
-
 
 
 
