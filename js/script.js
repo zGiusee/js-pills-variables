@@ -191,28 +191,44 @@
 
 // FOR IN WHILE
 
-let num = prompt("inserisci il tuo numero");
+// let num = prompt("inserisci il tuo numero");
 
-let a = 0;
-let b = 1;
+// let a = 0;
+// let b = 1;
 
-let c;
+// let c;
 
-console.log(a, b);
+// console.log(a, b);
 
-let i = 0;
+// let i = 0;
 
-while(i < num){
+// while(i < num){
 
-   c = a + b;
-   a = b;
-   b = c;
+//    c = a + b;
+//    a = b;
+//    b = c;
 
-   console.log(c);
+//    console.log(c);
    
-   i++;
+//    i++;
    
+// } 
+
+
+// function ciaoMondo(){
+//    console.log("Ciao, Mondo!");
+// }
+
+// ciaoMondo();
+
+function somma(num1, num2){
+   return num1 + num2;
 }
+
+let result = somma(3,5);
+
+console.log(result);
+
 
 
 
