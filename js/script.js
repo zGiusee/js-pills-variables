@@ -221,13 +221,47 @@
 
 // ciaoMondo();
 
-function somma(num1, num2){
-   return num1 + num2;
-}
+// function somma(num1, num2){
+//    return num1 + num2;
+// }
 
-let result = somma(3,5);
+// let result = somma(3,5);
 
-console.log(result);
+// console.log(result);
+
+// let number1 = parseInt(prompt("1' NUMERO"));
+// let number2 = parseInt(prompt("2' NUMERO"));
+
+// let result = somma(number1, number2);
+// console.log(result)
+// console.log(number1, number2)
+
+// function getOneStringFromTwo(a, b){
+//    return a + ' ' + b;
+// }
+
+// let c ="Ciao"
+// let d = "Mondo"
+
+// console.log(getOneStringFromTwo(c, d))
+
+// setTimeout(function(){
+
+//    alert('Ciao Mondo')
+
+// },3000)
+
+// let time = 0;
+
+// setInterval(function(){
+
+//    time++;
+//    console.log(time);
+
+// },1000)
+
+
+
 
 
 
